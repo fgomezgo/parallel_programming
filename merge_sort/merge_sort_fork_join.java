@@ -4,6 +4,11 @@ import java.util.concurrent.RecursiveAction;
 
 public class merge_sort_fork_join extends RecursiveAction {
 
+    /**
+     *  Added serialVersionUID due to the extension of the RecursiveAction library
+     */
+    private static final long serialVersionUID = 1L;
+
     private static int ITERATIONS = 100;
     private static int ARR_SIZE = 1000000;
 
